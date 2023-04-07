@@ -1,0 +1,87 @@
+.banner-background{
+    width: 100%;
+    height: 800px;
+    margin-top: 75px;   
+}
+
+
+.auth-frame{
+    border-radius: 50px;
+    background-color: white;
+    width: 600px;
+    text-align: center;
+    margin: 200px auto;
+    padding-bottom: 50px;
+}
+
+
+.logo{
+    font-size: 60px;
+    color: black;
+    font-weight: bolder;
+}
+
+.text-box{
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.password-container{
+    position: relative;
+    margin-top: 40px;
+    width: 100%;
+    height: 50px;
+}
+
+.user-info{
+    margin-top: 40px;
+    font-size: 25px;
+    border-radius: 10px;
+    width: 70%;
+    border: solid;
+    border-width: 2px;
+    border-color:royalblue;
+}
+
+.eye-btn{
+    opacity: 50%;
+    top: -2px;
+    z-index: 2;
+    position: absolute;
+    left: 75%;
+    width: 50px;
+    height: 50px;
+}
+
+.eye-btn:hover{
+    opacity: 20%;
+}
+
+.page-link{
+    margin: 0 auto;
+    width: 45%;
+    font-size: 25px;
+    color: royalblue;
+}
+
+.page-link:hover{
+    color: lightblue;
+}
+
+.log-out:hover{
+    color: black !important;
+}
+
+.submit-btn{
+    background-color: firebrick;
+    color: white;
+    font-size: 35px;
+    width: 40%;
+    border-radius: 20px;
+    margin: 30px auto 0 auto;
+}
+
+.submit-btn:hover{
+    color: white;
+    background-color: black !important;
+}

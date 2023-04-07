@@ -1,0 +1,148 @@
+* {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                    not supported by any browser */
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+
+.site-header{
+    background: white;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    top: 0;
+    right: 0;
+    border-bottom: solid;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+}
+
+.site-logo{
+    font-size: 40px;
+    font-weight: bolder;
+    display: block;
+    color: black;
+}
+
+.site-header-items-container{
+    display: inline-block;
+    margin-left: auto;
+}
+
+.site-header-item{
+    font-size: 25px;
+    margin-left: 50px;
+    display: inline-block;
+    color: firebrick;
+}
+
+.site-header-item:hover{
+    color: black;
+}
+
+.header-account-photo-frame{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background: black;
+    margin: 0 50px;
+}
+
+.banner-background{
+    margin-top: 75px;
+    width: 100%;
+    overflow: hidden;
+    height: 800px
+}
+
+.banner-add-to-order{
+    font-size: 25px;
+    margin: 20px auto 0 auto;
+    display: block;
+    color: yellow;
+    border-color: yellow;
+    border-width: 1px;
+    border: solid;
+    width: 200px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.banner-add-to-order:hover{
+    color: firebrick;
+    border-color: firebrick;
+}
+.banner-text-header{
+    color: white;
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu-list{     
+    margin: 50px auto;
+    width: 90%;
+}
+
+
+.menu-item-photo{
+    width: 250px;
+    margin: 0 30px;
+}
+
+.menu-item-text{
+    padding: 0 40px;
+    color: black;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-wrap: break-word;
+}
+
+.add-to-bag-btn{
+    font-size: 30px;
+    border-color: darkred;
+    border-width: 1px;
+    border: solid;
+    border-radius: 40px;
+    width: 250px;
+    color: darkred;
+    display: inline-block;
+    text-align: center;
+}
+
+.add-to-bag-btn:hover{
+    color: black;
+    border-color: black;
+}
+.count-box{
+    font-size: 25px;
+    width: 80px;
+    border-style: hidden;
+    margin: 30px;
+}
+
+.make-order{
+    font-size: 60px;
+    border-color: darkred;
+    border-width: 1px;
+    border: solid;
+    border-radius: 80px;
+    width: 500px;
+    color: darkred;
+    display: inline-block;
+    text-align: center;
+}
+
+.make-order:hover{
+    color: black;
+    border-color: black;
+}
